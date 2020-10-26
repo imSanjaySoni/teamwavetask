@@ -1,0 +1,30 @@
+name: teamwavetask
+description: task for Teamwave.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  flutter_icons:
+  equatable: ^1.2.0
+  http: ^0.12.1
+  dartz: ^0.9.1
+  get_it: ^4.0.2
+  google_fonts: ^1.1.0
+  flutter_bloc: ^5.0.0
+  cached_network_image: ^2.2.0+1
+  url_launcher: ^5.7.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
